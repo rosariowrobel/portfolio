@@ -38,7 +38,7 @@ class Portfolio extends React.Component {
                         <h2 className="w-title">PokeGuia</h2>
                         <div className="w-more">
                           <span className="w-ctegory">
-                            HTML5 CSS3 Bootstrap ReactJS
+                            HTML5 CSS3 JavaScript Git GitHub
                           </span>
                         </div>
                       </div>
