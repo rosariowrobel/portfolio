@@ -23,24 +23,21 @@ class Home extends React.Component {
             <div className="container">
                 <p className="title">
                     <span className="intro"></span>
-                    <strong className="intro-title mb-4">
-            <Typed strings={["Maria del Rosario Wrobel"]} typeSpeed={100} loop/>
+                <strong className="intro-title mb-4">
+                  <Typed 
+                    strings={["Maria del Rosario Wrobel"]}
+                    typeSpeed={100}
+                    loop
+                    />
                 </strong>
             </p>
-             {/* <h1 className="intro-title mb-4">Hello, I am Maria del Rosario</h1>*/}
-              
+             {/* <h1 className="intro-title mb-4">Hello, I am Maria del Rosario</h1>*/}              
               <p className="intro-subtitle">
                 <span className="text-slider-items"></span>
                 <strong className="text-slider">
                   <Typed
-                    strings={[
-                      "Front End Developer",
-                      "Back End Developer",
-                      "Software Engineer"
-                    ]}
-                    typeSpeed={80}
-                    backDelay={1100}
-                    backSpeed={30}
+                    strings={["Front End Developer"]}          
+                    typeSpeed={80}                    
                     loop
                   />
                 </strong>

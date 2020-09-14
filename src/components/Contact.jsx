@@ -17,16 +17,16 @@ class Contact extends React.Component {
                   <div className="row">
                     <div className="col-md-6">
                       <div className="title-box-2">
-                        <h5 className="title-left">Send A Message</h5>
+                        <h5 className="title-left">Hablame</h5>
                       </div>
                       <div>
                         <form
-                          action="https://formspree.io/xdoeonlo"
+                          action="https://formspree.io/meqpjezp"
                           method="POST"
                           className="contactForm"
                         >
                           <div id="sendmessage">
-                            Your message has been sent. Thank you!
+                          Tu mensaje ha sido enviado. ¡Gracias!
                           </div>
                           <div id="errormessage"></div>
                           <div className="row">
@@ -37,7 +37,7 @@ class Contact extends React.Component {
                                   name="name"
                                   className="form-control"
                                   id="name"
-                                  placeholder="Your Name"
+                                  placeholder="Nombre"
                                   data-rule="minlen:4"
                                   data-msg="Please enter at least 4 chars"
                                 />
@@ -51,9 +51,9 @@ class Contact extends React.Component {
                                   className="form-control"
                                   name="email"
                                   id="email"
-                                  placeholder="Your Email"
+                                  placeholder="Email"
                                   data-rule="email"
-                                  data-msg="Please enter a valid email"
+                                  data-msg="Por favor introduzca una dirección de correo electrónico válida"
                                 />
                                 <div className="validation"></div>
                               </div>
@@ -65,9 +65,9 @@ class Contact extends React.Component {
                                   className="form-control"
                                   name="subject"
                                   id="subject"
-                                  placeholder="Subject"
+                                  placeholder="Asunto"
                                   data-rule="minlen:4"
-                                  data-msg="Please enter at least 8 chars of subject"
+                                  data-msg="Ingrese al menos 8 caracteres de asunto"
                                 />
                                 <div className="validation"></div>
                               </div>
@@ -80,7 +80,7 @@ class Contact extends React.Component {
                                   rows="5"
                                   data-rule="required"
                                   data-msg="Please write something for us"
-                                  placeholder="Message"
+                                  placeholder="Mensaje"
                                 ></textarea>
                                 <div className="validation"></div>
                               </div>
@@ -90,7 +90,7 @@ class Contact extends React.Component {
                                 type="submit"
                                 className="button button-a button-big button-rouded"
                               >
-                                Send Message
+                                ENVIAR
                               </button>
                             </div>
                           </div>
@@ -99,15 +99,12 @@ class Contact extends React.Component {
                     </div>
                     <div className="col-md-6">
                       <div className="title-box-2 pt-4 pt-md-0">
-                        <h5 className="title-left">Get in Touch</h5>
+                        <h5 className="title-left">Contacto</h5>
                       </div>
                       <div className="more-info">
                         <p className="lead">
-                          Whether you want to get in touch, talk about a project
-                          collaboration, or just say hi, I'd love to hear from
-                          you.
-                          <br />
-                          Simply fill the from and send me an email.
+                        Estoy feliz de aceptar nuevos desafíos, por eso los invito a presentarme su proyecto o saludarme.<br />
+                        Déjame llevar mis conocimientos a tu empresa.
                         </p>
                         
                       </div>
@@ -131,7 +128,7 @@ class Contact extends React.Component {
                               rel="noopener noreferrer"
                             >
                               <span className="ico-circle">
-                                <i className="ion-social-github"></i>
+                                <i className="ionicons-v5_logos"></i>
                               </span>
                             </a>
                           </li>
