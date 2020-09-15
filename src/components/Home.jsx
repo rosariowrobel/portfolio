@@ -1,7 +1,7 @@
 import React from "react";
 import "./Stars.scss";
 import Typed from "react-typed";
-import Back from "../img/fondo.jpg";
+import Back from "../img/fondo1.png";
 //import Typography from "@material-ui/core/Typography";
 //import { makeStyles } from "@material-ui/core/styles";
 
