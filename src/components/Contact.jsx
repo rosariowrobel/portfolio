@@ -1,5 +1,5 @@
 import React from "react";
-import imageOverlay from "../img/fondoCon.png";
+import imageOverlay from "../img/fondo2.png";
 
 class Contact extends React.Component {
   render() {
@@ -128,7 +128,7 @@ class Contact extends React.Component {
                               rel="noopener noreferrer"
                             >
                               <span className="ico-circle">
-                                <i className="ionicons-v5_logos"></i>
+                                <i className="ion-social-github"></i>
                               </span>
                             </a>
                           </li>
